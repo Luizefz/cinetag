@@ -3,10 +3,12 @@
 :root {
   --fonte: 'Montserrat', sans-serif;
   --branco: #FFFFFF;
-  --vermelho: #FF6D60;
-  --preto: #000000;
+  --vermelho: #DC3535;
+  --laranja: #FFA73F;
+  --preto: #1B1A17;
   --cinza: #E2E2E2;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,7 +17,7 @@
 
 body {
   font-family: var(--fonte);
-  background-color: var(--branco);
+  background-color: var(--preto);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

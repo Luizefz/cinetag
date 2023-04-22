@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from "images/Fear-bro.svg"
+import Logo from "images/Cine Tag.png"
 import styles from "./Cabecalho.module.css"
 import CabecalhoLink from "components/CabecalhoLink";
 

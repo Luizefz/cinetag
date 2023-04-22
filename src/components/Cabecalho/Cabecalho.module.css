@@ -2,6 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 2.5rem;
-    background-color: var(--vermelho);
+    padding: 0.6rem 2.5rem;
+    margin: 1rem 1rem;
+    background-color: var(--laranja);
+    border-radius: 12px;
+}
+
+img {
+    width: 86px;
+    height: 86px;
 }
