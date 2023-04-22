@@ -46,7 +46,16 @@ input[type="checkbox"] {
 input[type="checkbox"] ~ label {
     width: 2rem;
 }
+input[type="checkbox"]:hover ~ label {
+    cursor: pointer;
+}
 
 input[type="checkbox"]:checked ~ label  {
     animation: FavAnimation 0.55s;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--preto);
+    text-align: left;
 }
